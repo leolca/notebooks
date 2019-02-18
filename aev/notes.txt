@@ -1,0 +1,10 @@
+# convert jupyter notebook to pdf 
+jupyter nbconvert --to pdf --template temp Untitled.ipynb
+
+https://github.com/jupyter/notebook/issues/3353
+jupyter nbconvert --to pdf --template temp quantization.ipynb --TagRemovePreprocessor.remove_cell_tags='{"remove_cell"}' 
+
+
+https://www.overleaf.com/learn/latex/Articles/The_TeX_family_tree:_LaTeX,_pdfTeX,_XeTeX,_LuaTeX_and_ConTeXt
+
+
